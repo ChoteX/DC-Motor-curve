@@ -1,0 +1,5 @@
+{
+  "name": "DC Motor Performance Visualizer",
+  "description": "An interactive web application to visualize the performance curves (Torque, Current, Power, Efficiency) of a generic DC motor. It features a voltage slider to dynamically update the graphs and a calculator to determine the required voltage for a specific RPM and torque.",
+  "requestFramePermissions": []
+}
