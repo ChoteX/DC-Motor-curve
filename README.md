@@ -45,7 +45,7 @@ The optimized assets are emitted to `dist/`.
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `VITE_BASE_PATH` | `/` | Overrides Vite's `base` option. Set to `/<repo-name>/` (including leading and trailing slashes) when serving from a sub-path such as GitHub Pages. |
+| `VITE_BASE_PATH` | auto (`/<repo-name>/` in GitHub Actions) | Overrides Vite's `base` option. Set manually if you need a custom path (defaults to `/` locally). |
 
 > Note: A `GEMINI_API_KEY` can be defined, but the current UI runs entirely on simulated data and does not call external APIs.
 
