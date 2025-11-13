@@ -1,7 +1,3 @@
-<div align="center">
-  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # DC Motor Performance Visualizer
 
 An interactive React + Vite experience for exploring the behavior of an R550-type DC motor. Slide the input voltage, estimate the voltage required to sustain a target RPM/Torque pair, and inspect the resulting torque, speed, and efficiency curves that are generated on the fly.
@@ -47,7 +43,6 @@ The optimized assets are emitted to `dist/`.
 | --- | --- | --- |
 | `VITE_BASE_PATH` | auto (`/<repo-name>/` in GitHub Actions) | Overrides Vite's `base` option. Set manually if you need a custom path (defaults to `/` locally). |
 
-> Note: A `GEMINI_API_KEY` can be defined, but the current UI runs entirely on simulated data and does not call external APIs.
 
 Create a `.env.local` (for local development) or rely on repository/Actions secrets to customize any of the variables above.
 
